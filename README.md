@@ -12,9 +12,8 @@ Door dit project worden vacatures automatisch verzameld en gestructureerd opgesl
 
 2. **Maak een virtuele omgeving** en installeer de dependencies:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # Op Windows: venv\Scripts\activate
-   pip install -r requirements.txt
+   pip install poetry # Alleen bij eerste installatie
+   poetry install --no-root
    ```
 
 3. **Start PostgreSQL met Docker**:
