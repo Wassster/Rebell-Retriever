@@ -1,0 +1,5 @@
+scrapy
+beautifulsoup4
+requests
+playwright
+psycopg2
