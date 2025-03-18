@@ -19,11 +19,5 @@ Door dit project worden vacatures automatisch verzameld en gestructureerd opgesl
 
 3. **Start PostgreSQL met Docker**:
    ```bash
-   docker-compose up -d
+   docker-compose up
    ```
-
-4. **Start de scraper handmatig (later geautomatiseerd)**:
-   ```bash
-   python src/scrapers/studentenwerk.py
-   ```
-```
